@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from './compnents/navbar'
-import Hero from './compnents/Hero'
-import Trustedby from './compnents/Trustedby'
-import Services from './compnents/Services'
-import OurWork from './compnents/OurWork'
-import Teams from './compnents/Teams'
-import ContactUs from './compnents/ContactUs'
+import Navbar from './components/navbar'
+import Hero from './components/Hero'
+import Trustedby from './components/Trustedby'
+import Services from './components/Services'
+import OurWork from './components/OurWork'
+import Teams from './components/Teams'
+import ContactUs from './components/ContactUs'
 import {Toaster} from 'react-hot-toast'
-import Footer from './compnents/footer'
+import Footer from './components/footer'
 
 const App = () => {
   const [theme, setTheme] = React.useState(localStorage.getItem('theme') || 'light')
