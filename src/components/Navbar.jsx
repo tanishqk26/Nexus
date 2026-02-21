@@ -1,12 +1,13 @@
 import React from 'react'
 import assets from '../assets/assets'
 import Themetogglebtn from './Themetogglebtn'
+import { motion } from "motion/react"
 
 const Navbar = ({theme,setTheme}) => {
 
     const [sidebaropen, setSidebaropen] = React.useState(false)
   return (
-    <div className='flex justify-between items-center px-4 sm:px-12 lg:px-24 xl:px-40 py-4 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50 dark:bg-gray-900/70'>
+    <motion.div initial={{opacity: 0, y: -50}} animate={{opacity: 1, y: 0}} transition={{duration: 0.5,ease:"easeOut"}} className='flex justify-between items-center px-4 sm:px-12 lg:px-24 xl:px-40 py-4 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50 dark:bg-gray-900/70'>
       
     <div className="flex items-center gap-2">
   <img
@@ -42,7 +43,7 @@ const Navbar = ({theme,setTheme}) => {
         </div>
 
 
-    </div>
+    </motion.div>
   )
 }
 

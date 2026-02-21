@@ -29,6 +29,9 @@ import google_logo from './google_logo.svg'
 import menu_icon_dark from './menu_icon_dark.svg'
 import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
+import sujalImg from './sujalImg.png'
+import parthImg from './parthImg.png'
+import yogeshImg from './yogeshImg.png'
 
 
 export const company_logos = [
@@ -71,7 +74,7 @@ const assets = {
 export default assets
 
 export const teamData = [
-  { name: 'Sujal Bidwai', title: '', image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200' },
-  { name: 'Yogesh Wagchaure', title: '', image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200' },
-  { name: 'Parth Waykar', title: '', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop' }
+  { name: 'Sujal Bidwai', title: '', image: sujalImg },
+  { name: 'Parth Waykar', title: '', image: parthImg },
+  { name: 'Yogesh Wagchaure', title: '', image: yogeshImg }
 ]
